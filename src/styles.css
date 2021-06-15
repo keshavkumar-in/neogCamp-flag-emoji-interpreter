@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --color: #e8e7e3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #080333;
+  color: var(--color);
+  padding: 0.75rem;
+}
+h1,
+p {
+  margin: 0.75rem 0rem;
+}
+input {
+  padding: 0.5rem 0.75rem;
+  width: 70%;
+  margin: 1rem 0;
+  border: 2px solid gray;
+  background: transparent;
+  color: var(--color);
+  caret-color: blueviolet;
+  border-radius: 1rem;
+  font-size: large;
+}
+input:focus {
+  border: 2px solid blueviolet;
+  outline: none;
+}
+.meaning {
+  width: 60%;
+  margin: auto;
+}
+@media (max-width: 769px) {
+  .meaning {
+    width: 100%;
+  }
+}
+.meaning,
+.meaning strong {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+}
+.meaning p {
+  font-size: large;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  padding: 0.5rem;
+  font-size: 2.25rem;
+  cursor: pointer;
+}
