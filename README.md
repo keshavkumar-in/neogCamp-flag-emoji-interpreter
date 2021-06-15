@@ -1,2 +1,2 @@
 # neogCamp-flag-emoji-interpreter
-Created with CodeSandbox
+This is a Flag emoji Interpreter app, where you can search for an emoji and get its name and some facts about the emoji.
